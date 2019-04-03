@@ -22,7 +22,7 @@ void Tester::integerSorts(int *array, size_t size, void (*compare)(void*, int, i
     for (int i = 0; i < numberOfAlgorithms; i++) {
         copy(array, array + size, temp);
         //sort = getSort(algorithm[i], temp, size);
-        sort = new SelectSort(temp, size);
+        sort = new InsertSort(temp, size);
         sort->execute(compare);
         ASSERT(is_sorted(temp, temp + size), "The " + sort->name() + " is not ordering all the elements");
     }

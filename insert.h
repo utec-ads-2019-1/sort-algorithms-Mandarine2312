@@ -9,8 +9,8 @@ class InsertSort : public Sort {
 
         void execute(void (*compare)(void*, int, int)) {
             for(int i = 1; i < size; i++){
-                for(int j = i; i >0; i--) {
-                    compare(elements, i, j);
+                for(int j = i; j >0; j--) {
+                    compare(elements, j-1, j);
                 }
             }
         }
