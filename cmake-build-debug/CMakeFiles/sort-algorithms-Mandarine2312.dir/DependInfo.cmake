@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/main.cpp" "/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/cmake-build-debug/CMakeFiles/sort-algorithms-Mandarine2312.dir/main.cpp.o"
+  "/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/mocker.cpp" "/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/cmake-build-debug/CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.o"
+  "/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/tester.cpp" "/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/cmake-build-debug/CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

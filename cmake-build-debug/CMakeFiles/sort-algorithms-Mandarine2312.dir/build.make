@@ -70,17 +70,47 @@ CMakeFiles/sort-algorithms-Mandarine2312.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sort-algorithms-Mandarine2312.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/main.cpp -o CMakeFiles/sort-algorithms-Mandarine2312.dir/main.cpp.s
 
+CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.o: CMakeFiles/sort-algorithms-Mandarine2312.dir/flags.make
+CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.o: ../mocker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.o -c /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/mocker.cpp
+
+CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/mocker.cpp > CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.i
+
+CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/mocker.cpp -o CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.s
+
+CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.o: CMakeFiles/sort-algorithms-Mandarine2312.dir/flags.make
+CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.o: ../tester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.o -c /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/tester.cpp
+
+CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/tester.cpp > CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.i
+
+CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/tester.cpp -o CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.s
+
 # Object files for target sort-algorithms-Mandarine2312
 sort__algorithms__Mandarine2312_OBJECTS = \
-"CMakeFiles/sort-algorithms-Mandarine2312.dir/main.cpp.o"
+"CMakeFiles/sort-algorithms-Mandarine2312.dir/main.cpp.o" \
+"CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.o" \
+"CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.o"
 
 # External object files for target sort-algorithms-Mandarine2312
 sort__algorithms__Mandarine2312_EXTERNAL_OBJECTS =
 
 sort-algorithms-Mandarine2312: CMakeFiles/sort-algorithms-Mandarine2312.dir/main.cpp.o
+sort-algorithms-Mandarine2312: CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.o
+sort-algorithms-Mandarine2312: CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.o
 sort-algorithms-Mandarine2312: CMakeFiles/sort-algorithms-Mandarine2312.dir/build.make
 sort-algorithms-Mandarine2312: CMakeFiles/sort-algorithms-Mandarine2312.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sort-algorithms-Mandarine2312"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable sort-algorithms-Mandarine2312"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sort-algorithms-Mandarine2312.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

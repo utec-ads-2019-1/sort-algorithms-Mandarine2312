@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sort-algorithms-Mandarine2312.dir/main.cpp.o"
+  "CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.o"
+  "CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.o"
   "sort-algorithms-Mandarine2312.pdb"
   "sort-algorithms-Mandarine2312"
 )

@@ -87,6 +87,18 @@
 		<Unit filename="/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/main.cpp">
 			<Option target="sort-algorithms-Mandarine2312"/>
 		</Unit>
+		<Unit filename="/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/mocker.cpp">
+			<Option target="sort-algorithms-Mandarine2312"/>
+		</Unit>
+		<Unit filename="/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/mocker.h">
+			<Option target="sort-algorithms-Mandarine2312"/>
+		</Unit>
+		<Unit filename="/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/tester.cpp">
+			<Option target="sort-algorithms-Mandarine2312"/>
+		</Unit>
+		<Unit filename="/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/tester.h">
+			<Option target="sort-algorithms-Mandarine2312"/>
+		</Unit>
 		<Unit filename="/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

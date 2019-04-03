@@ -150,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/sort-algorithms-Mandarine2312.dir/build.make CMakeFiles/sort-algorithms-Mandarine2312.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mocker.o: mocker.cpp.o
+
+.PHONY : mocker.o
+
+# target to build an object file
+mocker.cpp.o:
+	$(MAKE) -f CMakeFiles/sort-algorithms-Mandarine2312.dir/build.make CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.o
+.PHONY : mocker.cpp.o
+
+mocker.i: mocker.cpp.i
+
+.PHONY : mocker.i
+
+# target to preprocess a source file
+mocker.cpp.i:
+	$(MAKE) -f CMakeFiles/sort-algorithms-Mandarine2312.dir/build.make CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.i
+.PHONY : mocker.cpp.i
+
+mocker.s: mocker.cpp.s
+
+.PHONY : mocker.s
+
+# target to generate assembly for a file
+mocker.cpp.s:
+	$(MAKE) -f CMakeFiles/sort-algorithms-Mandarine2312.dir/build.make CMakeFiles/sort-algorithms-Mandarine2312.dir/mocker.cpp.s
+.PHONY : mocker.cpp.s
+
+tester.o: tester.cpp.o
+
+.PHONY : tester.o
+
+# target to build an object file
+tester.cpp.o:
+	$(MAKE) -f CMakeFiles/sort-algorithms-Mandarine2312.dir/build.make CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.o
+.PHONY : tester.cpp.o
+
+tester.i: tester.cpp.i
+
+.PHONY : tester.i
+
+# target to preprocess a source file
+tester.cpp.i:
+	$(MAKE) -f CMakeFiles/sort-algorithms-Mandarine2312.dir/build.make CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.i
+.PHONY : tester.cpp.i
+
+tester.s: tester.cpp.s
+
+.PHONY : tester.s
+
+# target to generate assembly for a file
+tester.cpp.s:
+	$(MAKE) -f CMakeFiles/sort-algorithms-Mandarine2312.dir/build.make CMakeFiles/sort-algorithms-Mandarine2312.dir/tester.cpp.s
+.PHONY : tester.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +216,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mocker.o"
+	@echo "... mocker.i"
+	@echo "... mocker.s"
+	@echo "... tester.o"
+	@echo "... tester.i"
+	@echo "... tester.s"
 .PHONY : help
 
 

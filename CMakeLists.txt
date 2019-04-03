@@ -3,4 +3,4 @@ project(sort-algorithms-Mandarine2312)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(sort-algorithms-Mandarine2312 main.cpp)
+add_executable(sort-algorithms-Mandarine2312 main.cpp mocker.cpp tester.cpp)
