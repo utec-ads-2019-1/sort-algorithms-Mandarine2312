@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/sort-algorithms-Mandarine2312.dir/main.cpp.o  -o sort-algorithms-Mandarine2312 
