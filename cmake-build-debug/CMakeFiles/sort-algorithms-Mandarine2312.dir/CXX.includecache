@@ -44,6 +44,10 @@ merge.h
 sort.h
 /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/sort.h
 
+/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/mocker.cpp
+mocker.h
+/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/mocker.h
+
 /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/mocker.h
 random
 -
@@ -51,6 +55,8 @@ random
 /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/quick.h
 sort.h
 /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/sort.h
+vector
+-
 
 /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/select.h
 sort.h
@@ -63,10 +69,6 @@ sort.h
 /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/sort.h
 algorithm
 -
-
-/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/tester.cpp
-tester.h
-/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/tester.h
 
 /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/tester.h
 stdexcept
