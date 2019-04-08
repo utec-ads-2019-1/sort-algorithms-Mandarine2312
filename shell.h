@@ -17,6 +17,15 @@ class ShellSort : public Sort {
         }
 
 
+        void printElements(){
+            int *array = (int*) elements;
+            for(int i = 0; i < size; i++){
+                cout << array[i] << " ";
+            }
+            cout << endl;
+        }
+
+
         inline string name() { return "ShellSort"; }
 };
 
