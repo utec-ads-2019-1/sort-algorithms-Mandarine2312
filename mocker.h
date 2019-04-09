@@ -6,7 +6,7 @@
 using namespace std;
 
 #define MIN 1
-#define MAX 100
+#define MAX 10
 
 class Mocker {
     private:
