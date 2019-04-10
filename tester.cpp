@@ -16,20 +16,14 @@ void Tester::integerSorts(int *array, size_t size, void (*compare)(void*, int, i
     Sort* sort;
     int temp[size];
 
-    /*Algorithm algorithm[] = { bubblesort, selectsort, insertsort, shellsort, quicksort, mergesort };
+    Algorithm algorithm[] = { bubblesort, selectsort, insertsort, shellsort, quicksort, mergesort };
     size_t numberOfAlgorithms = sizeof(algorithm) / sizeof(algorithm[0]);
 
     for (int i = 0; i < numberOfAlgorithms; i++) {
         copy(array, array + size, temp);
-        //sort = getSort(algorithm[i], temp, size);
-        sort = new ShellSort(temp, size);
+        sort = getSort(algorithm[i], temp, size);
+        //sort = new ShellSort(temp, size);
         sort->execute(compare);
         ASSERT(is_sorted(temp, temp + size), "The " + sort->name() + " is not ordering all the elements");
-    }*/
-
-    int test[7] = { 11, 5, 5, 14, 13, 7, 5 };
-    sort = new ShellSort(test, 7);
-    sort->execute(compare);
-
-    sort->printElements();
+    }
 }
