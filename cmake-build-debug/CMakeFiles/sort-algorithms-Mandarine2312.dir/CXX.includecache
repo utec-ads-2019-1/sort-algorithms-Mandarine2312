@@ -16,9 +16,37 @@ algorithm
 sort.h
 /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/sort.h
 
+/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/main.cpp
+iostream
+-
+assert.h
+-
+string
+-
+mocker.h
+/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/mocker.h
+tester.h
+/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/tester.h
+bubble.h
+/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/bubble.h
+select.h
+/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/select.h
+insert.h
+/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/insert.h
+shell.h
+/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/shell.h
+quick.h
+/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/quick.h
+merge.h
+/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/merge.h
+
 /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/merge.h
 sort.h
 /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/sort.h
+
+/home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/mocker.h
+random
+-
 
 /home/alejandro/Documents/Workspace/sort-algorithms-Mandarine2312/quick.h
 sort.h
