@@ -8,18 +8,15 @@ class ShellSort : public Sort {
         ShellSort(void *elements, size_t size) : Sort(elements, size) {}
 
         void execute(void (*compare)(void*, int, int)) {
-            for(int i = (size/2)+1; i >= 1; i--){
+            for(int gap = (size/2)+1; gap >= 1; gap--){
                 for(int j = 0; j < size - i; j++){
-                    compare(elements, j, j+i);}
-            }
-            for(int i = 1; i < size; i++){
-                for(int j = i; j >0; j--) {
-                    compare(elements, j-1, j);
+                    compare(elements, j, j+gap);
+                }
+                for(int j = size-1; j >= size-gap-1; j--){
+                    compare(elements, j-gap, j);
                 }
             }
-        }
 
-        //No olvidar cambiar números del mocker
         void printElements(){
             int *array = (int*) elements;
             for(int i = 0; i < size; i++){
