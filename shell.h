@@ -8,11 +8,11 @@ class ShellSort : public Sort {
         ShellSort(void *elements, size_t size) : Sort(elements, size) {}
 
         void execute(void (*compare)(void*, int, int)) {
-            for(int gap = (size/2)+1; gap >= 1; gap--){
-                for(int j = 0; j < size - i; j++){
-                    compare(elements, j, j+gap);
-                }
-                for(int j = size-1; j >= size-gap-1; j--){
+
+            for(int gap = (size/2); gap >= 1; gap--){
+                for(int j = 0; j < size - gap; j++){
+                    compare(elements, j, j+gap);}
+                for(int j = size-1; j >= size-gap; j--){
                     compare(elements, j-gap, j);
                 }
             }
@@ -28,5 +28,4 @@ class ShellSort : public Sort {
 
         inline string name() { return "ShellSort"; }
 };
-
 #endif

@@ -13,7 +13,6 @@ class QuickSort : public Sort {
             int *array = (int *) elements;
             int right = pivot - 1, originalLeft = left;
 
-
             if ((pivot - left) > 0) {
                 while (left < right) {
                     if (array[left] > array[right]) {
